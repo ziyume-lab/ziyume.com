@@ -1,5 +1,6 @@
 # deps
 /node_modules
+.idea
 
 # generated content
 .contentlayer
@@ -26,4 +27,3 @@ yarn-error.log*
 .env*.local
 .vercel
 next-env.d.ts
-.idea
