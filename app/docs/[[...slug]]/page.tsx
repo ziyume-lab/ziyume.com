@@ -28,10 +28,6 @@ export default async function Page(props: {
   );
 }
 
-export async function generateStaticParams() {
-  return source.generateParams();
-}
-
 export async function generateMetadata(props: {
   params: Promise<{ slug?: string[] }>;
 }) {
@@ -44,3 +40,5 @@ export async function generateMetadata(props: {
     description: page.data.description,
   };
 }
+
+export const runtime = 'edge';
