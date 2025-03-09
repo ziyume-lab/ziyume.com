@@ -1,0 +1,11 @@
+{
+  "title": "PicImpact",
+  "description": "自部署的摄影作品网站",
+  "icon": "Building2",
+  "root": true,
+  "pages": [
+    "---开始---",
+    "index",
+    "getting-started"
+  ]
+}
