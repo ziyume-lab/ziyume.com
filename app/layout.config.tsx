@@ -25,9 +25,25 @@ export const baseOptions: BaseLayoutProps = {
   },
   links: [
     {
-      text: 'PicImpact',
-      url: '/docs/pic',
-      active: 'nested-url',
+      type: 'menu',
+      text: '文档',
+      items: [
+        {
+          text: 'PicImpact',
+          description: '自部署的摄影作品网站，支持多种功能特性。PicImpact，分享你和世界！',
+          url: '/docs/pic',
+
+          // (optional) Props for Radix UI Navigation Menu item in Home Layout
+          menu: {
+            className: 'row-span-2',
+          },
+        },
+      ],
+    },
+    {
+      text: '关于',
+      url: '/about',
+      active: 'url',
     },
   ],
   githubUrl: 'https://github.com/besscroft',

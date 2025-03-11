@@ -5,14 +5,16 @@ import { cn } from "~/lib/utils";
 
 export default function HomePage() {
   return (
-    <main className="flex flex-1 flex-col justify-center text-center">
-      <SparklesText text="紫梦工作室" />
+    <div className="flex flex-1 flex-col justify-center text-center">
+      <SparklesText className="mt-16" text="紫梦工作室" />
       <TypingAnimation>希望能够通过编程，帮助他人和创造一些有意思的东西。</TypingAnimation>
+
       <DotPattern
         className={cn(
-          "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
+          "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
+          "flex-1"
         )}
       />
-    </main>
+    </div>
   );
 }
