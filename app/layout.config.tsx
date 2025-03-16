@@ -23,6 +23,10 @@ export const baseOptions: BaseLayoutProps = {
       </>
     ),
   },
+  githubUrl: 'https://github.com/besscroft',
+};
+
+export const linkOptions: BaseLayoutProps = {
   links: [
     {
       type: 'menu',
@@ -46,5 +50,4 @@ export const baseOptions: BaseLayoutProps = {
       active: 'url',
     },
   ],
-  githubUrl: 'https://github.com/besscroft',
-};
+}
