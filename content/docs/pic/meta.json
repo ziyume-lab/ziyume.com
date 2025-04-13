@@ -12,7 +12,6 @@
     "basic/upload",
     "basic/list",
     "basic/album",
-    "basic/copyright",
     "basic/settings",
     "basic/storages",
     "basic/authenticator",
