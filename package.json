@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "build:website": "turbo run wensite#build",
+    "build:website": "turbo run website#build",
     "dev": "turbo run dev",
     "dev:website": "turbo run website#dev",
     "start:website": "turbo run website:start",
